@@ -24,6 +24,9 @@ hs_err_pid*
 
 # stop the node packages from being pushed to git
 node_modules/
+./node_modules
+node_modules
+./node_modules/
 
 # stop DS_store from being pushed
 .DS_Store
