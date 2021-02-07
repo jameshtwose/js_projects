@@ -1,0 +1,26 @@
+{
+  "name": "js_projects",
+  "version": "1.0.0",
+  "description": "This is a repository of small projects used to learn and get better at programming in javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameshtwose/js_projects.git"
+  },
+  "keywords": [
+    "peepo",
+    "clock"
+  ],
+  "author": "itsamejms",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameshtwose/js_projects/issues"
+  },
+  "homepage": "https://github.com/jameshtwose/js_projects#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
