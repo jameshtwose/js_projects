@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "cmd + i"
+run = "node = main.js"
