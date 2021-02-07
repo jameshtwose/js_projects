@@ -60,7 +60,7 @@ var updateClock = function()
 
   if (time == partytime)
   {
-    image = "https://ih1.redbubble.net/image.1079152139.1012/st,small,507x507-pad,600x600,f8f8f8.jpg";
+    image = "https://images-na.ssl-images-amazon.com/images/I/51fG9wYn1RL._AC_SL1000_.jpg";
     messageText = "Yay PEEPO!";
   }
   else if (time == wakeuptime)
@@ -86,7 +86,7 @@ var updateClock = function()
   else
   {
     image="https://ih1.redbubble.net/image.1079152139.1012/st,small,507x507-pad,600x600,f8f8f8.jpg";
-    messageText = "Good afternoon, , PEEPO be chillin...";
+    messageText = "Good afternoon, PEEPO be chillin...";
   }
   console.log(messageText);
   timeEventJS.innerText = messageText;
