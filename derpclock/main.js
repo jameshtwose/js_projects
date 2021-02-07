@@ -60,7 +60,7 @@ var updateClock = function()
 
   if (time == partytime)
   {
-    image = "https://ih1.redbubble.net/image.839413307.0422/st,small,507x507-pad,600x600,f8f8f8.u14.jpghttps://ih1.redbubble.net/image.839413307.0422/st,small,507x507-pad,600x600,f8f8f8.u14.jpg";
+    image = "https://ih1.redbubble.net/image.1079152139.1012/st,small,507x507-pad,600x600,f8f8f8.jpg";
     messageText = "Yay PEEPO!";
   }
   else if (time == wakeuptime)
