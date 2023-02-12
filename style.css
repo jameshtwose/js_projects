@@ -1,0 +1,24 @@
+body {
+    background-color: #d9d9d90e;
+    color: #212020;
+    font-family: "Raleway";
+    font-size: 20px;
+    line-height: 2.2;
+    padding-top: 50px;
+    text-align: center;
+}
+
+a {
+    color: #480887;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b990e2;
+}
+
+li {
+    list-style: none;
+    align-items: left;
+    margin: 0 10px;
+}
