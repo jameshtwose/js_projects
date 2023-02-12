@@ -30,3 +30,4 @@ node_modules
 
 # stop DS_store from being pushed
 .DS_Store
+.idea
