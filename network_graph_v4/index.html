@@ -1,0 +1,21 @@
+<head>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="//unpkg.com/3d-force-graph"></script>
+  <!--<script src="../../dist/3d-force-graph.js"></script>-->
+
+  <title>Example of brain network correlations</title>
+</head>
+
+<body>
+  <div id="graph"></div>
+  <script>
+      const Graph = ForceGraph3D()
+        (document.getElementById('graph'))
+          .jsonUrl('./data/brain_networks_corrs.json')
+          .nodeLabel('id')
+          .nodeAutoColorBy('group')
+          .linkDirectionalParticles("value")
+          .linkDirectionalParticleSpeed(d => d.value * 0.1);
+          
+    </script>
+</body>
